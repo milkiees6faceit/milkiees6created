@@ -89,9 +89,27 @@ a {
   letter-spacing: 0;
 }
 
-.brand img {
-  display: block;
-  filter: drop-shadow(0 0 16px rgba(84, 240, 255, 0.4));
+.logo-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(84, 240, 255, 0.55);
+  border-radius: var(--radius);
+  color: #071019;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.25)),
+    linear-gradient(135deg, var(--cyan), var(--pink) 55%, var(--lime));
+  box-shadow: 0 0 22px rgba(84, 240, 255, 0.32);
+  font-size: 1.1rem;
+  font-weight: 950;
+}
+
+.logo-mark-small {
+  width: 34px;
+  height: 34px;
+  font-size: 1rem;
 }
 
 .nav-links {
